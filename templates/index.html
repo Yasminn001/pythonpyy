@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa sobre Python e POO</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Python e Programação Orientada a Objetos</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2> O que é Python?</h2>
+            <p>Python é uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.</p>
+        </section>
+
+        <section>
+            <h2>Vantagens Profissionais</h2>
+            <ul>
+                <li>Grande demanda no mercado de trabalho</li>
+                <li>Versatilidade (web, dados, IA, automação)</li>
+                <li>Sintaxe simples e legível</li>
+                <li>Comunidade ativa e muitos recursos</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2> O que é POO?</h2>
+            <p>Programação Orientada a Objetos é um paradigma que organiza o código em "objetos" que contêm dados (atributos) e comportamentos (métodos).</p>
+            
+            <h3>Principais vantagens:</h3>
+            <ul>
+                <li>Reutilização de código (herança)</li>
+                <li>Organização e manutenção facilitada</li>
+                <li>Encapsulamento (proteção de dados)</li>
+                <li>Modelagem mais próxima do mundo real</li>
+            </ul>
+        </section>
+
+        <section class="demo">
+            <h2>Demonstração Python-Flask</h2>
+            <p>Mensagem do servidor Python: <strong>{{ mensagem }}</strong></p>
+            <p>Hora atual no servidor: <strong>{{ hora }}</strong></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto hospedado no Render.com | © 2025</p>
+    </footer>
+</body>
+</html>
